@@ -228,9 +228,10 @@
           <h2>Diagram</h2>
           <p>Berikut contoh diagram-diagram sequence.</p>
         </div>
-        <iframe frameborder="0" style="width:100%;height:305px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Sequance%20Diagram#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1HxmGFrEnfRHICOUaCg0xUxEjsoeUXNBq%26export%3Ddownload"></iframe>
+        <iframe frameborder="0" style="width:100%; height:305px; margin-bottom:0; padding-bottom:0;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Sequance%20Diagram#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1HxmGFrEnfRHICOUaCg0xUxEjsoeUXNBq%26export%3Ddownload"></iframe>
       
       </div>
+      
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Services Section ======= -->
@@ -337,6 +338,24 @@
         </div>
 
       </div>
+
+      <div style="margin-right: 50px; margin-left: 50px;">
+        <p>Penjelasan proses Kerja SD secara umum:</p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">1. Identifikasi Objek : Langkah pertama adalah mengidentifikasi objek-objek yang terlibat dalam interaksi. Objek dapat berupa entitas sistem, kelas, atau komponen yang memiliki peran dalam proses yang akan digambarkan</li>
+          <li class="list-group-item">2. Menentukan Urutan : Setelah objek-objek teridentifikasi, langkah selanjutnya adalah menentukan urutan atau langkah-langkah yang akan dilakukan oleh setiap objek. Ini mencakup panggilan metode, pengiriman pesan, atau interaksi lainnya antara objek</li>
+          <li class="list-group-item">3. Menambahkan Pesan : Dalam sequence diagram, pesan-pesan antara objek ditampilkan dengan menggunakan panah yang mengarah dari pengirim (objek pengirim pesan) ke penerima (objek penerima pesan). Pesan dapat berupa pesan synchronous (ditandai dengan garis solid) atau asynchronous (ditandai dengan garis putus-putus)</li>
+          <li class="list-group-item">4. Menambahkan Notasi Lainnya :
+            -  Aktivitas Objek : Jika suatu objek sedang melakukan aktivitas atau proses, dapat ditampilkan dengan menggunakan notasi kotak kecil di sebelah objek yang bersangkutan.
+            -  Pemanggilan Metode : Pemanggilan metode atau operasi pada suatu objek ditandai dengan menggunakan notasi seperti `objek.metode()` di bawah pesan yang terkait.
+         </li>
+          <li class="list-group-item">5. Menambahkan Kondisi atau Perulangan : Jika ada kondisi atau perulangan yang perlu ditampilkan dalam interaksi, sequence diagram dapat memuat notasi seperti garis vertikal dengan tanda kurung kurawal yang berisi kondisi atau iterasi</li>
+          <li class="list-group-item">6. Menyusun Diagram : Setelah semua elemen-elemen di atas ditentukan, susunlah diagram secara visual dengan menempatkan objek-objek dan pesan-pesan sesuai dengan urutan dan interaksi yang diinginkan</li>
+          <li class="list-group-item">7. Anotasi dan Penjelasan : Tambahkan anotasi atau penjelasan jika diperlukan untuk menjelaskan detail dari interaksi yang terjadi, misalnya keterangan kondisi atau alasan pemanggilan metode tertentu</li>
+          <li class="list-group-item">8. Verifikasi dan Validasi : Terakhir, pastikan diagram telah diverifikasi dan divalidasi untuk memastikan bahwa interaksi yang digambarkan sesuai dengan logika dan aturan sistem yang ada</li>
+        </ul>
+      </div>
+
     </section><!-- End Services Section -->
 
     <!-- ======= Contact Section ======= -->
@@ -345,8 +364,13 @@
 
         <div class="section-title">
           <h2>Scenario</h2>
+<<<<<<< Updated upstream
           <img src="assets/img/skenario.png" class="img-fluid" alt="Skenario" style="padding-bottom: 70px;">
           <p style="text-align: left;">Sequence Diagram di atas memberikan gambaran tentang proses peminjaman buku di perpustakaan sekolah. Dimana aktor (admin perpustakaan) melakukan pengecekan data siswa yang akan meminjam buku. Diagram dimulai pada saat admin melakukan input data pada tampilan sistem dan berakhir saat sistem menampilkan status peminjaman. Diagram di atas menggunakan tiga entitas, yaitu <b>entitas anggota</b>, <b>entitas buku</b>, dan <b>entitas lama peminjaman</b>. <br>Proses ke satu yaitu aktor berinteraksi dengan boundary class dengan menginputkan data id_anggota, id_buku, dan lama pinjam. Kemudian data tersebut diteruskan ke bagian kontrol pinjam
+=======
+          <img src="assets/img/skenario.png" class="img-fluid" alt="Skenario" style="padding-bottom: 70px; padding-top: 50px;">
+          <p>Sequence Diagram di atas memberikan gambaran tentang proses peminjaman buku di perpustakaan sekolah. Dimana aktor (admin perpustakaan) melakukan pengecekan data siswa yang akan meminjam buku. Diagram dimulai pada saat admin melakukan input data pada tampilan sistem dan berakhir saat sistem menampilkan status peminjaman. Diagram di atas menggunakan tiga entitas, yaitu entitas anggota, entitas buku, dan entitas lama peminjaman. Proses ke satu yaitu aktor berinteraksi dengan boundary class dengan menginputkan data id_anggota, id_buku, dan lama pinjam. Kemudian data tersebut diteruskan ke bagian kontrol pinjam
+>>>>>>> Stashed changes
             Proses kedua setelah perintah masuk ke kontrol pinjam kemudian dilakukan proses pengecekkan data pertama pada entitas anggota, setelah data dinyatakan valid akan ada tampilan hasil yang dikirim ke kontrol pinjam dan lanjut ke proses selanjutnya.
             Proses ketiga pengecekan ketersediaan buku pada entitas buku, setelah data dinyatakan valid akan ada tampilan hasil yang dikirim ke kontrol pinjam dan lanjut ke proses selanjutnya.
             Proses keempat pengecekan status pinjaman, setelah data dinyatakan valid akan ada tampilan hasil yang dikirim ke kontrol pinjam dan lanjut ke proses selanjutnya.
